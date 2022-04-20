@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+cofigo
+
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+</head>
+<body>
 
-<link rel="stylesheet" href="./assets/style.css">
     <h1>Mi Folio</h1>
     <p>Nombre: Gonzalo Casabella - Edad: 22 - Genero: Masculino</p>
-    <img src="assets/images/portadadk.jpg" alt="" srcset="FOTO">
+    <img src="assets/images/FOTOPERFIO.png" alt="" srcset="Portada">
     <p>Ocupacion: Actualmente estudiante universitario</p>
     <ul>FORMACION ACADEMICA</ul>
     <p>Colegio San jose - Rafaela, Sta fe</p>
