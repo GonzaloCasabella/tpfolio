@@ -1,12 +1,24 @@
-p {
-    color: blue;
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url(./assets/images/FOTOPERFIO.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.logo{
+    width: 200px;
+}
+
+body{
+    background-color: rgb(248, 255, 248);
+    text-align: center;
 }
 h1{
-    background-color: rgb(25, 204, 180);
+    background-color: rgb(85, 217, 182);
 }
-ul{
-    font-size: 40px;
-}
-img{
-    Z
+
+p{
+    background-color: black;
+    color: rgb(253, 251, 249);
 }
