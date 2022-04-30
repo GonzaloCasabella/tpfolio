@@ -1,9 +1,9 @@
 .box{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-image: url(./assets/images/FOTOPERFIO.png);
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 70%;
     margin: 0 auto;
 }
 .logo{
@@ -21,4 +21,8 @@ h1{
 p{
     background-color: black;
     color: rgb(253, 251, 249);
+}
+ul{
+    background-color: rgb(241, 246, 248);
+    color: black;
 }
