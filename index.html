@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./assets/funcionalidades.js">
+    </script>
 </head>
 <body>
     <h1>Mi Folio</h1>
@@ -43,20 +45,7 @@
 <P>""</P>
     <a href="https://github.com/GonzaloCasabella/tpfolio.git">link Repositorio</a><br>
   <p>Ejercicio 1</p>
-  <script>
-       function numeromayor(numero1,numero2,numero3,resultado){
-           console.log(numero1.value,numero2.value,numero3.value)
-           let mayor = 0
-           let valores = [numero1.value,numero2.value,numero3.value]
-           for (let i = 0; i < valores.length; i++) {
-               if (valores[i] > mayor){
-                   mayor = valores[i]
-               }
-               
-           }
-           resultado.value = mayor
-       }
-   </script> 
+  <script>   
  <input type="number" id="numero1"> 
  <input type="number" id="numero2"> 
  <input type="number" id="numero3">   
@@ -66,20 +55,13 @@
 <input type="number" id="resultado">
 
 <p>Ejercicio 2</p>
-<script>
-    function sumar (sum1,sum2,sumR){
-        sumR.value = parseInt(sum1.value) + parseInt(sum2.value)
-    }
+
 </script>
 <input type="number" id="sum1">
 <input type="number" id="sum2">
 <button onclick="sumar(sum1,sum2,sumR)">sumar</button>
 <input type="number" id="sumR">
 <p>Ejercicio 3</p>
-<script>
-     function multiplicar (p,n,Cingeso){
-        Cingreso.value = parseInt(p.text) * parseInt(n.value)
-    }
 </script>
 <input type="text" id= "p">
 <input type="number" id="n">
