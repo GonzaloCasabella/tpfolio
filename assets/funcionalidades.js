@@ -13,6 +13,25 @@ function numeromayor(numero1,numero2,numero3,resultado){
 function sumar (sum1,sum2,sumR){
     sumR.value = parseInt(sum1.value) + parseInt(sum2.value)
 }
-function multiplicar (p,n,Cingeso){
-    Cingreso.value = parseInt(p.text) * parseInt(n.value)
+function Repetir (p,n,Cingreso){
+    let text = ""
+    for (let i = 0; i < parseInt(n.value); i++) {
+        text = text + p.value + " "
+    }
+    Cingreso.value = text
+}
+function contar(pl,c) {
+    c.value = pl.value.length
+}
+function convertir(celsius,fahrenheit) {
+    let c = parseFloat(celsius.value)
+    let f = parseFloat(fahrenheit.value)
+    if (f==0) {
+        fahrenheit.value = (c*(9/5))+32
+        celsius.value = 0
+    } else {
+        celsius.value = (f-32)*(5/9)
+        fahrenheit.value = 0
+    }
+    
 }
