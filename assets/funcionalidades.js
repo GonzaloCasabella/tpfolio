@@ -35,3 +35,17 @@ function convertir(celsius,fahrenheit) {
     }
     
 }
+function condition(numer,type) {
+    Console.WriteLine (numer.value)
+long= numer.value = Convert.ToInt64(Console.ReadLine());
+long= sobrante = num.value % 2;
+if (sobrante == 0)
+{
+    Console.WriteLine("El número es par");
+}
+ else {
+     Console.WriteLine("El número es impar");
+    }
+    
+}
+
