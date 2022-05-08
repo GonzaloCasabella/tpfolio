@@ -35,17 +35,19 @@ function convertir(celsius,fahrenheit) {
     }
     
 }
-function condition(numer,type) {
-    Console.WriteLine (numer.value)
-long= numer.value = Convert.ToInt64(Console.ReadLine());
-long= sobrante = num.value % 2;
-if (sobrante == 0)
-{
-    Console.WriteLine("El número es par");
-}
- else {
-     Console.WriteLine("El número es impar");
+function mostrar(numeroA, numeroB,Rst) {
+  console.log (numeroA,numeroB)
+let x = 0
+let valores = [numeroA.value,numeroB.value,Rst.value]
+    for (let i = 0; i < valores.length; i++) {
+        if (valores[i] % 3){
+            x = valores[i]
+        }
+        
     }
-    
+    Rst.value =  x
 }
-
+function ingresar(nprimo,nfin) {
+    let np = parseFloat(nprimo.value)
+    let nf = parseFloat(nfin.value)
+} 
