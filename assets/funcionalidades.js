@@ -35,19 +35,51 @@ function convertir(celsius,fahrenheit) {
     }
     
 }
+function condition(nro,tipo) {
+    let n = parseInt(nro.value)
+    if (n % 2 == 0) {
+        tipo.value = "es par"
+    } else {
+        tipo.value = "es impar"
+    }
+}
+
 function mostrar(numeroA, numeroB,Rst) {
   console.log (numeroA,numeroB)
-let x = 0
-let valores = [numeroA.value,numeroB.value,Rst.value]
-    for (let i = 0; i < valores.length; i++) {
-        if (valores[i] % 3){
-            x = valores[i]
+let a = parseInt(numeroA.value)
+let b = parseInt(numeroB.value)
+let valores = []
+    for (let i = a; i <= b; i++) {
+        if (i % 3== 0){
+            valores.push(i)
         }
         
     }
-    Rst.value =  x
+    Rst.value =  valores
 }
-function ingresar(nprimo,nfin) {
-    let np = parseFloat(nprimo.value)
-    let nf = parseFloat(nfin.value)
-} 
+function verificar(nprimo,nfin) {
+    let np = parseInt(nprimo.value)
+    let primos = []
+    for (let i = 2; i <= np; i++) {
+        let esprimo = true
+        for (let f = 2; f < i; f++) {
+            if (i % f == 0) {
+                esprimo = false
+            }
+           
+            
+        }
+       
+        if (esprimo) {
+            primos.push(i)
+        }
+    }
+    nfin.value = primos
+}
+
+function informacion(nombre,apellido,ed,ciudad,parrafo) {
+    let texto = "Mi nombre es " + nombre.value + " "+ apellido.value +
+    ",Tengo " + ed.value + " años " + ". Naci en la ciudad de " + ciudad.value + "."
+    parrafo.value = texto  
+    
+}
