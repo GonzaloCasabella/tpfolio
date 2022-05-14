@@ -79,7 +79,15 @@ function verificar(nprimo,nfin) {
 
 function informacion(nombre,apellido,ed,ciudad,parrafo) {
     let texto = "Mi nombre es " + nombre.value + " "+ apellido.value +
-    ",Tengo " + ed.value + " años " + ". Naci en la ciudad de " + ciudad.value + "."
+    ",Tengo " + ed.value + " años " +".Naci en la ciudad de " + ciudad.value + "."
     parrafo.value = texto  
     
+}
+function separar(v1,s1) {
+    let a = parseInt(v1.value)
+
+ function separar(v2,s2) {
+        let b = parseInt(v2.value)
+
+    }
 }
